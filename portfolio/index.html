@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f97a9d7c72.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <br>
+            <nav>
+                <img src="personal-portfolio-img/images/logo-no-background.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fa-regular fa-circle-xmark"></i>  -->
+                </ul>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Pranay</span><br>Mittal From India</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------about -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="personal-portfolio-img/images/5th img.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>"Loyalty is a two-way street. If I'm asking for it from you then you're getting it from me".<br><br>A talented Software Engineer aspiring to gain a full-time position in a reputed company. Gained extensive experience in web development, testing, and deployment through internship. A highly motivated and hardworking individual.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>Java, C++, HTML, CSS JavaScript</li>
+                        <li><span>Databases</span><br>MySQL, BigData, Power BI, Jupyter, PostgreSQL</li>
+                        <li><span>Frameworks</span><br>Keras, TensorFlow, Scikit-Learn, ReactJS, NodeJS, ExpressJS</li>
+                        <li><span>CourseWork</span><br>Object Oriented Programming, Data Structures & Algorithm, Operating System, Computer
+                            Network, Database Management System</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Sept 2023- Oct 2023</span><br>Technical Intern at Uttarakhand Power Corporation Limited</li>
+                        <!-- <li><span>2019-2021</span><br>Team Lead at xyz</li>
+                        <li><span>2017-2019</span><br>UI/UX Design Training at ET Institute</li>
+                        <li><span>2017-2019</span><br>Internship</li> -->
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019</span><br>Brightlands School<br>Class 10: 91%</li>
+                        <li><span>2021</span><br>Brightlands School<br>Class 12: 95.5%</li>
+                        <li><span>2021- Present</span><br>Vellore Institute of Technology; Tamil Nadu, India<br>
+                            Computer Science with Specialization in Information Security; CGPA: 7.68</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------services -->
+
+<!-- <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, inventore repellat! Modi necessitatibus pariatur corporis optio dignissimos atque. Nulla, nihil? Sapiente placeat voluptates deleniti quidem fuga vero provident officia optio.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, inventore repellat! Modi necessitatibus pariatur corporis optio dignissimos atque. Nulla, nihil? Sapiente placeat voluptates deleniti quidem fuga vero provident officia optio.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-apple"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, inventore repellat! Modi necessitatibus pariatur corporis optio dignissimos atque. Nulla, nihil? Sapiente placeat voluptates deleniti quidem fuga vero provident officia optio.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- -----portfolio -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="personal-portfolio-img/images/work-1.png">
+                <div class="layer">
+                    <h3>Sorting Visualizer</h3>
+                    <p>This project allows user to generate size of array and speed of algorithm according to user's will. It can be used for all sorting algorithms.<br><br>Technologies Used: HTML, CSS, JSON.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="personal-portfolio-img/images/work-2.png">
+                <div class="layer">
+                    <h3>Responsive E-Commerce Website</h3>
+                    <p>Developed a responsive Nike shoe selling website.
+<br><br>Technologies Used: HTML, CSS, JavaScript.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="personal-portfolio-img/images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Deep Learning face image analysis to detect age and gender using kaggle environment.
+                         More than 20,000 face photos with age, gender, and ethnicity annotations make up the dataset.
+                         Achieved 90% accuracy and to classify the photos, a convolutional neural network is employed.
+                         <br><br>Technologies Used: Pandas, Numpy, Matplotlib, Keras, TensorFlow, Scikit-Learn, CNN Network.</p>
+                    <!-- <a href="#"><i class="fa-regular fa-arrow-up-right-from-square"></i></a> -->
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- -------contact -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>pranaymittal003@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9412920202</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/pranaymittal_22"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/pranay_._22/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pranay-mittal-3972b7247/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <!-- <a href="personal-portfolio-img/images/my-cv.pdf" download class="btn btn2">Download Resume</a> -->
+                <a href="personal-portfolio-img/images/pm resume (4).pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Pranay <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzc_9ueIK9EC1fjfdxGoHcqSgapTEy5Yc6hi5kOoyBba_2baL-IBpys61FqN-r3i7Ev/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
